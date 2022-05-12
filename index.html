@@ -112,9 +112,7 @@
       function page_init(geturl) {
         fetch(geturl, {
           method: 'get',
-          headers: {
-            'Cache-Control': 'no-cache'
-          }
+          cache: 'no-store',
         })
         .then(r => {
           return r.json();
