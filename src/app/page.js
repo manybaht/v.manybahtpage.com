@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
       <div className="sm:hidden w-full min-h-dvh overflow-hidden bg-cover bg-center" style={{backgroundImage:"url('/vtuber_images/1.png')"}}></div>
-      <div className="bg-[#121212] p-6">
+      <div className="bg-[#121212] p-6 flex-grow">
         <div className="flex flex-col sm:flex-row justify-center gap-1 sm:gap-4">
           <p className="font-medium text-white">Manybaht, 2024</p>
           <a href="mailto:vtuber@manybahtpage.com">
