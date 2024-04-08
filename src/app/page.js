@@ -11,7 +11,7 @@ export default function Home() {
   }
 
   return (
-    <main className="bg-gradient-to-b from-white to-orange-400 flex flex-col min-h-dvh">
+    <main className="bg-gradient-to-b from-white to-orange-400 flex flex-col min-h-screen">
       <div className="pt-10 px-5 lg:px-24">
         <div className="flex flex-col lg:flex-row items-center gap-6">
           <img className="w-64 h-full" src="/title.webp"/>
@@ -33,7 +33,7 @@ export default function Home() {
           <h1 className="text-orange-600 font-bold text-2xl sm:text-4xl xl:text-6xl my-auto text-center xl:text-left xl:leading-[96px]">{lang ? "Create joy for everyone, every day." : "มาสร้างรอยยิ้มให้ทุกคนในทุกวัน"}</h1>
         </div>
       </div>
-      <div className="sm:hidden w-full min-h-dvh overflow-hidden bg-cover bg-center" style={{backgroundImage:"url('/vtuber_images/1.png')"}}></div>
+      <div className="sm:hidden w-full min-h-screen overflow-hidden bg-cover bg-center" style={{backgroundImage:"url('/vtuber_images/1.png')"}}></div>
       <div className="bg-[#121212] p-6 flex-grow">
         <div className="flex flex-col sm:flex-row justify-center gap-1 sm:gap-4">
           <p className="font-medium text-white">Manybaht, 2024</p>
